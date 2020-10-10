@@ -15,7 +15,7 @@ const App = () => {
     <View style={styles.mainContainer}>
       {/* <Text >Hello World!</Text> */}
       <View style={styles.formContainer}>
-        <Form/>
+        <Form />
       </View>
       <View style={styles.resaultContainer}></View>
     </View>
@@ -23,9 +23,23 @@ const App = () => {
 }
 
 const styles = StyleSheet.create({
-  mainContainer: {flex:1,},
-  formContainer: {flex:0.5,backgroundColor:'blue'},
-  resaultContainer: {flex:0.5,backgroundColor:'red'},
+  mainContainer: {
+    flex: 1,
+    padding: 8,
+    borderRadius: 7
+  },
+  formContainer: {
+    flex: 0.5,
+    backgroundColor: 'blue',
+    borderTopLeftRadius: 7,
+    borderTopRightRadius: 7
+  },
+  resaultContainer: {
+    flex: 0.5,
+    backgroundColor: 'red',
+    borderBottomLeftRadius: 7,
+    borderBottomRightRadius: 7
+  },
 })
 
 export default App;
