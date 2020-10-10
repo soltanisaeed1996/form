@@ -7,14 +7,25 @@
  */
 
 import React from 'react';
-import {View,Text} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import Form from './src/component/form';
 
-const App = ()=>{
-  return(
-    <View>
-      <Text>Hello World!</Text>
+const App = () => {
+  return (
+    <View style={styles.mainContainer}>
+      {/* <Text >Hello World!</Text> */}
+      <View style={styles.formContainer}>
+        <Form/>
+      </View>
+      <View style={styles.resaultContainer}></View>
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  mainContainer: {flex:1,},
+  formContainer: {flex:0.5,backgroundColor:'blue'},
+  resaultContainer: {flex:0.5,backgroundColor:'red'},
+})
 
 export default App;
