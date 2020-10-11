@@ -25,12 +25,12 @@ const App = () => {
 const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
+    direction: 'ltr',
     padding: 8,
     borderRadius: 7
   },
   formContainer: {
     flex: 0.5,
-    backgroundColor: 'blue',
     borderTopLeftRadius: 7,
     borderTopRightRadius: 7
   },
