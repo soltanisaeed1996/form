@@ -12,7 +12,8 @@
   "dependencies": {
     "@react-native-community/checkbox": "^0.5.5",
     "react": "16.13.1",
-    "react-native": "0.63.3"
+    "react-native": "0.63.3",
+    "react-native-custom-radio-group": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
